@@ -1,0 +1,820 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2023.2.3">
+  <Settings>
+    <Param val="4" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="myMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="True" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="True" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1440, 900]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="ESST" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="scene_camera.json" valType="file" updates="None" name="plCompanionCameraCalibration"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="loadStims">
+      <RoutineSettingsComponent name="loadStims" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="loadStims" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="codeLoadStims" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# Prepare a dictionary to hold all our stims, categorized by stim_type&amp;#10;all_stims = {'ambiguous_image': [], 'negative_image': [], 'positive_image': []}&amp;#10;&amp;#10;# Code Component - Begin Experiment&amp;#10;stimuli_list = data.importConditions('image_stims.xlsx')&amp;#10;&amp;#10;# You can iterate over the stimuli_list to categorize them into the dictionary if needed&amp;#10;for stim in stimuli_list:&amp;#10;    all_stims[stim['stim_type']].append(stim['stim_file'])&amp;#10;    &amp;#10;# Initialize counter for each stim_type at 0&amp;#10;next_stim = {}&amp;#10;for stim_type in all_stims.keys():&amp;#10;    next_stim[stim_type] = 0" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="all_stims = {&quot;ambiguous_image&quot;: [], &quot;negative_image&quot;: [], &quot;positive_image&quot;: []};&amp;#10;stimuli_list = data.importConditions(&quot;image_stims.xlsx&quot;);&amp;#10;for (var stim, _pj_c = 0, _pj_a = stimuli_list, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    stim = _pj_a[_pj_c];&amp;#10;    all_stims[stim[&quot;stim_type&quot;]].push(stim[&quot;stim_file&quot;]);&amp;#10;}&amp;#10;next_stim = {};&amp;#10;for (var stim_type, _pj_c = 0, _pj_a = all_stims.keys(), _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    stim_type = _pj_a[_pj_c];&amp;#10;    next_stim[stim_type] = 0;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codeLoadStims" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="shuffleStims">
+      <RoutineSettingsComponent name="shuffleStims" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="shuffleStims" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="codeShuffleStims" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="import {shuffle} from 'random';&amp;#10;for (var key, _pj_c = 0, _pj_a = all_stims, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    key = _pj_a[_pj_c];&amp;#10;    util.shuffle(all_stims[key]);&amp;#10;}&amp;#10;next_stim = {};&amp;#10;next_stim[(key + &quot;_&quot;)] = 0;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="from random import shuffle&amp;#10;# Shuffle the list of stims for each stim type directly&amp;#10;for key in all_stims:&amp;#10;    shuffle(all_stims[key]) &amp;#10;#create a new_stim dict&amp;#10;next_stim = {}&amp;#10;next_stim[key+&quot;_&quot;] = 0" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codeShuffleStims" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="prepTimings">
+      <RoutineSettingsComponent name="prepTimings" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="prepTimings" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="codePrepTimings" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="from psychopy import core&amp;#10;globalClock = core.Clock()  # to track the time since experiment started&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="import {core} from 'psychopy';&amp;#10;globalClock = new util.Clock();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="&amp;#10;        // add-on: list(s: string): string[]&amp;#10;        function list(s) {&amp;#10;            // if s is a string, we return a list of its characters&amp;#10;            if (typeof s === 'string')&amp;#10;                return s.split('');&amp;#10;            else&amp;#10;                // otherwise we return s:&amp;#10;                return s;&amp;#10;        }&amp;#10;&amp;#10;        debug_mode = false;&amp;#10;buzz_min = 0.25;&amp;#10;buzz_max = 1.45;&amp;#10;buzz_default = 0.5;&amp;#10;buzz_timers = {};&amp;#10;go_accuracies = [];&amp;#10;go_reaction_times = [];&amp;#10;stop_accuracies = [];&amp;#10;stop_reaction_times = [];&amp;#10;key_list = list(all_stims);&amp;#10;for (var key, _pj_c = 0, _pj_a = key_list, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    key = _pj_a[_pj_c];&amp;#10;    buzz_timers[key] = buzz_default;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="#set to 'true' for debugging&amp;#10;debug_mode = False&amp;#10;&amp;#10;#set the buzz timer params&amp;#10;buzz_min = 0.25&amp;#10;buzz_max = 1.45&amp;#10;buzz_default = 0.5&amp;#10;&amp;#10;#create a dictionary to hold all of our stop-signal delay (SSD) values&amp;#10;buzz_timers = {}&amp;#10;&amp;#10;go_accuracies = []&amp;#10;go_reaction_times = []&amp;#10;stop_accuracies = []&amp;#10;stop_reaction_times = []&amp;#10;&amp;#10;#get a list of all the stim types&amp;#10;key_list = list(all_stims)&amp;#10;&amp;#10;#for each stim category...&amp;#10;for key in key_list:&amp;#10;    buzz_timers[key] = buzz_default" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codePrepTimings" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instructions">
+      <RoutineSettingsComponent name="instructions" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="instructions" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="textInstructions" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textInstructions" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.00, -0.00)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="This is a timed test.&amp;#10;&amp;#10;On each trial, you will see an image.&amp;#10;&amp;#10;Your task is to decide whether each image is POSITIVE or NEGATIVE:&amp;#10;&amp;#10;- Press the 'A' key (marked with a smiling sticker) if the image is pleasant or POSITIVE.&amp;#10;&amp;#10;- Press the 'L' key (marked with a frowning sticker) if the image is unpleasant or NEGATIVE. &amp;#10;&amp;#10;If you are unsure how a picture makes you feel, follow your instinct or 'gut reaction'. &amp;#10;&amp;#10;Please respond as quickly and accurately as possible!&amp;#10;&amp;#10;However, if you hear a sound (called the 'STOP SIGNAL'), you should STOP your response on that trial. DO NOT respond to the image when you hear this sound.&amp;#10;&amp;#10;You should stop your response regardless of whether the image has just appeared or if the STOP SIGNAL plays afterwards. Nevertheless, DO NOT WAIT for the STOP SIGNAL. If you wait, the test will get harder on later trials.&amp;#10;&amp;#10;Press &lt;SPACEBAR&gt; to practice." valType="str" updates="set every frame" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="keyInstruct" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="keyInstruct" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="codeInstructions" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# Code components should usually appear at the top&amp;#10;# of the routine. This one has to appear after the&amp;#10;# text component it refers to.&amp;#10;textInstructions.alignText='left'&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="// Code component set to Both&amp;#10;text_norm.setAlignHoriz('left')" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codeInstructions" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="prepPrac">
+      <RoutineSettingsComponent name="prepPrac" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="prepPrac" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="codePrepPrac" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="block_title = &quot;Practice&quot;;&amp;#10;textPractice.alignText = &quot;left&quot;;&amp;#10;/*&amp;#10;if(block_loop.thisN == 0):&amp;#10;p_cue_target_match[&quot;AA&quot;] = 1&amp;#10;p_cue_target_match[&quot;NA&quot;] = 1&amp;#10;p_cue_target_match[&quot;PA&quot;] = 1&amp;#10;&amp;#10;p_cue_target_match[&quot;AN&quot;] = 1&amp;#10;p_cue_target_match[&quot;NN&quot;] = 1&amp;#10;p_cue_target_match[&quot;PN&quot;] = 1&amp;#10;&amp;#10;p_cue_target_match[&quot;AP&quot;] = 1&amp;#10;p_cue_target_match[&quot;NP&quot;] = 1&amp;#10;p_cue_target_match[&quot;PP&quot;] = 1&amp;#10;&amp;#10;p_signal_to_noise[&quot;AA&quot;] = 1&amp;#10;p_signal_to_noise[&quot;AN&quot;] = 1&amp;#10;p_signal_to_noise[&quot;AP&quot;] = 1&amp;#10;&amp;#10;p_signal_to_noise[&quot;NA&quot;] = 1&amp;#10;p_signal_to_noise[&quot;NN&quot;] = 1&amp;#10;p_signal_to_noise[&quot;NP&quot;] = 1&amp;#10;&amp;#10;p_signal_to_noise[&quot;PA&quot;] = 1&amp;#10;p_signal_to_noise[&quot;PN&quot;] = 1&amp;#10;p_signal_to_noise[&quot;PP&quot;] = 1&amp;#10;&amp;#10;elif(block_loop.thisN == 1):&amp;#10;&amp;#10;p_cue_target_match[&quot;AA&quot;] = .7&amp;#10;p_cue_target_match[&quot;NA&quot;] = .7&amp;#10;p_cue_target_match[&quot;PA&quot;] = .7&amp;#10;&amp;#10;p_cue_target_match[&quot;AN&quot;] = .7&amp;#10;p_cue_target_match[&quot;NN&quot;] = .7&amp;#10;p_cue_target_match[&quot;PN&quot;] = .7&amp;#10;&amp;#10;p_cue_target_match[&quot;AP&quot;] = .7&amp;#10;p_cue_target_match[&quot;NP&quot;] = .7&amp;#10;p_cue_target_match[&quot;PP&quot;] = .7&amp;#10;&amp;#10;p_signal_to_noise[&quot;AA&quot;] = .7&amp;#10;p_signal_to_noise[&quot;AN&quot;] = .7&amp;#10;p_signal_to_noise[&quot;AP&quot;] = .7&amp;#10;&amp;#10;p_signal_to_noise[&quot;NA&quot;] = .7&amp;#10;p_signal_to_noise[&quot;NN&quot;] = .7&amp;#10;p_signal_to_noise[&quot;NP&quot;] = .7&amp;#10;&amp;#10;p_signal_to_noise[&quot;PA&quot;] = .7&amp;#10;p_signal_to_noise[&quot;PN&quot;] = .7&amp;#10;p_signal_to_noise[&quot;PP&quot;] = .7*/&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="#print(&quot;block_loop.thisN&quot;)&amp;#10;#print(block_loop.thisN)&amp;#10;block_title = &quot;Practice&quot;&amp;#10;textPractice.alignText='left'&amp;#10;&amp;#10;'''&amp;#10;if(block_loop.thisN == 0):&amp;#10;    p_cue_target_match[&quot;AA&quot;] = 1&amp;#10;    p_cue_target_match[&quot;NA&quot;] = 1&amp;#10;    p_cue_target_match[&quot;PA&quot;] = 1&amp;#10;&amp;#10;    p_cue_target_match[&quot;AN&quot;] = 1&amp;#10;    p_cue_target_match[&quot;NN&quot;] = 1&amp;#10;    p_cue_target_match[&quot;PN&quot;] = 1&amp;#10;&amp;#10;    p_cue_target_match[&quot;AP&quot;] = 1&amp;#10;    p_cue_target_match[&quot;NP&quot;] = 1&amp;#10;    p_cue_target_match[&quot;PP&quot;] = 1&amp;#10;&amp;#10;    p_signal_to_noise[&quot;AA&quot;] = 1&amp;#10;    p_signal_to_noise[&quot;AN&quot;] = 1&amp;#10;    p_signal_to_noise[&quot;AP&quot;] = 1&amp;#10;&amp;#10;    p_signal_to_noise[&quot;NA&quot;] = 1&amp;#10;    p_signal_to_noise[&quot;NN&quot;] = 1&amp;#10;    p_signal_to_noise[&quot;NP&quot;] = 1&amp;#10;&amp;#10;    p_signal_to_noise[&quot;PA&quot;] = 1&amp;#10;    p_signal_to_noise[&quot;PN&quot;] = 1&amp;#10;    p_signal_to_noise[&quot;PP&quot;] = 1&amp;#10;    &amp;#10;elif(block_loop.thisN == 1):&amp;#10;    &amp;#10;    p_cue_target_match[&quot;AA&quot;] = .7&amp;#10;    p_cue_target_match[&quot;NA&quot;] = .7&amp;#10;    p_cue_target_match[&quot;PA&quot;] = .7&amp;#10;&amp;#10;    p_cue_target_match[&quot;AN&quot;] = .7&amp;#10;    p_cue_target_match[&quot;NN&quot;] = .7&amp;#10;    p_cue_target_match[&quot;PN&quot;] = .7&amp;#10;&amp;#10;    p_cue_target_match[&quot;AP&quot;] = .7&amp;#10;    p_cue_target_match[&quot;NP&quot;] = .7&amp;#10;    p_cue_target_match[&quot;PP&quot;] = .7&amp;#10;&amp;#10;    p_signal_to_noise[&quot;AA&quot;] = .7&amp;#10;    p_signal_to_noise[&quot;AN&quot;] = .7&amp;#10;    p_signal_to_noise[&quot;AP&quot;] = .7&amp;#10;&amp;#10;    p_signal_to_noise[&quot;NA&quot;] = .7&amp;#10;    p_signal_to_noise[&quot;NN&quot;] = .7&amp;#10;    p_signal_to_noise[&quot;NP&quot;] = .7&amp;#10;&amp;#10;    p_signal_to_noise[&quot;PA&quot;] = .7&amp;#10;    p_signal_to_noise[&quot;PN&quot;] = .7&amp;#10;    p_signal_to_noise[&quot;PP&quot;] = .7&amp;#10;'''" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codePrepPrac" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="textPractice" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val=".025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textPractice" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0, -0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="First, some practice. Press &lt;SPACEBAR&gt; to start." valType="str" updates="set every frame" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="keyPractice" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="keyPractice" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="prepTrial">
+      <RoutineSettingsComponent name="prepTrial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="prepTrial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="codePrepTrial" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="import * as random from 'random';&amp;#10;import {shuffle} from 'random';&amp;#10;jitter_times = [0.15, 0.2, 0.25, 0.3, 0.35];&amp;#10;util.shuffle(jitter_times);&amp;#10;jitter_time = jitter_times[0];&amp;#10;psychoJS.experiment.addData(&quot;jitter_time&quot;, jitter_time);&amp;#10;if ((next_stim[stim_type] &gt;= all_stims[stim_type].length)) {&amp;#10;    next_stim[stim_type] = 0;&amp;#10;}&amp;#10;stimulus_image = all_stims[stim_type][next_stim[stim_type]];&amp;#10;next_stim[stim_type] += 1;&amp;#10;psychoJS.experiment.addData(&quot;stimulus_image&quot;, stimulus_image);&amp;#10;trial_time = 1.25;&amp;#10;psychoJS.experiment.addData(&quot;trial_time&quot;, trial_time);&amp;#10;buzz_time = 0;&amp;#10;buzz_volume = 0;&amp;#10;if ((go_nogo !== &quot;go&quot;)) {&amp;#10;    buzz_time = buzz_timers[stim_type];&amp;#10;    buzz_volume = 1;&amp;#10;    psychoJS.experiment.addData(&quot;buzz_time&quot;, buzz_time);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="import random&amp;#10;from random import shuffle&amp;#10;&amp;#10;# Sort out the jitter&amp;#10;jitter_times = [0.150, 0.200, 0.250, 0.300, 0.350]&amp;#10;shuffle(jitter_times)&amp;#10;jitter_time = jitter_times[0]&amp;#10;thisExp.addData(&quot;jitter_time&quot;, jitter_time)&amp;#10;&amp;#10;# Select the next available stim for the given stim_type&amp;#10;if next_stim[stim_type] &gt;= len(all_stims[stim_type]):&amp;#10;    next_stim[stim_type] = 0  # Reset the counter if exceeded&amp;#10;&amp;#10;stimulus_image = all_stims[stim_type][next_stim[stim_type]]&amp;#10;next_stim[stim_type] += 1  # Increment the next stim counter&amp;#10;&amp;#10;thisExp.addData(&quot;stimulus_image&quot;, stimulus_image)&amp;#10;&amp;#10;# Select the trial time&amp;#10;trial_time = 1.25&amp;#10;thisExp.addData(&quot;trial_time&quot;, trial_time)&amp;#10;&amp;#10;buzz_time = 0&amp;#10;buzz_volume = 0&amp;#10;&amp;#10;# Setup the sound for non-go trials&amp;#10;if go_nogo != &quot;go&quot;:&amp;#10;    buzz_time = buzz_timers[stim_type]&amp;#10;    buzz_volume = 1&amp;#10;    thisExp.addData(&quot;buzz_time&quot;, buzz_time)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codePrepTrial" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="jitteredISI">
+      <RoutineSettingsComponent name="jitteredISI" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="jitteredISI" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="textJitteredFix" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textJitteredFix" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$jitter_time" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="preTrial">
+      <RoutineSettingsComponent name="preTrial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="preTrial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="textPreTrialFix" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textPreTrialFix" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="iceTrial">
+      <RoutineSettingsComponent name="iceTrial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="iceTrial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="imageTarg" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$stimulus_image" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="imageTarg" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.25" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$trial_time" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <KeyboardComponent name="keyResp" plugin="None">
+        <Param val="'a','l'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="keyResp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.25" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$trial_time" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <SoundComponent name="stopSignal" plugin="None">
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="hamming"/>
+        <Param val="stopSignal" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="A" valType="str" updates="constant" name="sound"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="$buzz_time" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val=".5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+        <Param val="buzz_volume" valType="num" updates="set every repeat" name="volume"/>
+      </SoundComponent>
+      <CodeComponent name="codeTrial" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# Default feedback text in case there's an error or no response component found&amp;#10;feedback_message = 'No key_resp component found - look at the Std out window for info'&amp;#10;fb_col = 'black'&amp;#10;&amp;#10;if debug_mode:&amp;#10;    # (Your debug mode code remains the same)&amp;#10;    ...&amp;#10;else:&amp;#10;    # Handling responses for both go and no-go trials&amp;#10;    if go_nogo != &quot;go&quot;:&amp;#10;        # Handling for no-go trials&amp;#10;        if keyResp.keys is not None:  # If a response was made&amp;#10;            feedback_message = &quot;False alarm! Please do not respond on stop trials.&quot;&amp;#10;            fb_col = &quot;red&quot;&amp;#10;            keyResp.corr = 0&amp;#10;            # Decrease buzz_time&amp;#10;            buzz_time = max(buzz_min, buzz_time - 0.05)&amp;#10;        else:  # If no response was made&amp;#10;            feedback_message = &quot;Correct! No response needed on stop trials.&quot;&amp;#10;            fb_col = &quot;green&quot;&amp;#10;            keyResp.corr = 1&amp;#10;            # Increase buzz_time&amp;#10;            buzz_time = min(buzz_max, buzz_time + 0.05)&amp;#10;&amp;#10;        # Common updates for no-go trials&amp;#10;        thisExp.addData(&quot;no_go_acc&quot;, keyResp.corr)&amp;#10;        stop_accuracies.append(keyResp.corr)&amp;#10;        buzz_timers[stim_type] = buzz_time&amp;#10;        thisExp.addData('new_buzz_time', buzz_time)&amp;#10;        &amp;#10;    elif go_nogo == &quot;go&quot;:&amp;#10;        # Handling for go trials&amp;#10;        if keyResp.keys:  # If a response was made&amp;#10;            keyResp.corr = int(keyResp.keys[0] in [corr_resp1, corr_resp2])&amp;#10;            feedback_message = &quot;Correct!&quot; if keyResp.corr else &quot;Oops! That was the wrong response.&quot;&amp;#10;            fb_col = &quot;green&quot; if keyResp.corr else &quot;red&quot;&amp;#10;        else:  # If no response was made&amp;#10;            keyResp.corr = 0  # Incorrect omission error&amp;#10;            feedback_message = &quot;Miss! Please try to respond more quickly.&quot;&amp;#10;            fb_col = &quot;red&quot;&amp;#10;&amp;#10;        # Common updates for go trials&amp;#10;        thisExp.addData('go_reaction_time', keyResp.rt[0] if keyResp.keys else None)&amp;#10;        thisExp.addData('go_accuracy', keyResp.corr)&amp;#10;        go_accuracies.append(keyResp.corr)&amp;#10;&amp;#10;    print(&quot;buzz_time for &quot; + str(stim_type) + &quot; is &quot; + str(buzz_time))" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codeTrial" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="postTrial">
+      <RoutineSettingsComponent name="postTrial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="postTrial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="fb_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# fb_code Component - Begin Routine&amp;#10;&amp;#10;# We assume that 'feedbackText' is the name of the Text Component that will display the feedback message&amp;#10;# And 'key_resp' is the name of the Keyboard Component that records the participant's response&amp;#10;&amp;#10;# Set the text alignment to left&amp;#10;textPostTrial.alignText = 'left'&amp;#10;&amp;#10;# Default feedback text in case there's an error or no response component found&amp;#10;fb_text = 'No key_resp component found - look at the Std out window for info'&amp;#10;fb_col = 'black'&amp;#10;&amp;#10;# If a key response has been made, set the feedback text and color accordingly&amp;#10;try:&amp;#10;    if(go_nogo == &quot;go&quot;):&amp;#10;        if keyResp.corr:  # If the response was correct&amp;#10;        fb_text = 'Correct!'&amp;#10;        fb_col = 'green'&amp;#10;        else:  # If the response was incorrect&amp;#10;        fb_text = 'Incorrect'&amp;#10;        fb_col = 'red'&amp;#10;except Exception as e:  # If there's an error, such as 'key_resp' not existing&amp;#10;    print(f'Make sure that you have:\n'&amp;#10;          f'1. a routine with a keyboard component in it called &quot;keyResp&quot;\n'&amp;#10;          f'2. In the keyResp component in the &quot;data&quot; tab select &quot;Store Correct&quot;.\n'&amp;#10;          f'In the &quot;Correct answer&quot; field use &quot;$corrAns&quot; (where corrAns is a column header in your conditions file indicating the correct key press)\n'&amp;#10;          f'Error: {str(e)}')  # Output the actual error message to help with debugging&amp;#10;&amp;#10;# Apply the feedback message and color to the feedback text component&amp;#10;textPostTrial.setText(fb_text)&amp;#10;textPostTrial.setColor(fb_col)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
+        <Param val="fb_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="textPostTrial" plugin="None">
+        <Param val="$fb_col" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textPostTrial" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$feedback_message" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="blockFeedback">
+      <RoutineSettingsComponent name="blockFeedback" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="blockFeedback" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="codeBlockFB" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="## codeBlockFB Component - Begin Routine&amp;#10;&amp;#10;# Initialize feedbackMsg&amp;#10;feedbackMsg = &quot;&quot;&amp;#10;&amp;#10;# Calculate average accuracy and reaction time for &quot;go&quot; trials&amp;#10;if go_accuracies:  # Ensure there are 'go' trials to calculate averages&amp;#10;    avg_go_accuracy = sum(go_accuracies) / len(go_accuracies)&amp;#10;    avg_go_reaction_time = sum(go_reaction_times) / len(go_reaction_times) if go_reaction_times else 0&amp;#10;else:&amp;#10;    avg_go_accuracy = avg_go_reaction_time = 0  # Default values if no 'go' trials&amp;#10;&amp;#10;# Calculate for &quot;stop-signal&quot; trials&amp;#10;if stop_accuracies:  # Ensure there are 'stop-signal' trials to calculate averages&amp;#10;    avg_stop_accuracy = sum(stop_accuracies) / len(stop_accuracies)&amp;#10;else:&amp;#10;    avg_stop_accuracy = 0  # Default values if no 'stop-signal' trials&amp;#10;&amp;#10;# Initial part of the feedback message&amp;#10;blockFeedbackText.alignText = 'left'&amp;#10;feedbackMsg = f&quot;Go Trials - Accuracy: {avg_go_accuracy:.2%}, &quot;  # Converted to percentage&amp;#10;feedbackMsg += f&quot;Average Reaction Time: {avg_go_reaction_time:.3f} seconds\n&quot;&amp;#10;feedbackMsg += f&quot;Stop-Signal Trials - Accuracy: {avg_stop_accuracy:.2%}\n&quot;  # Converted to percentage&amp;#10;&amp;#10;# Initialize the countdown timer&amp;#10;countdown_start = 10  # seconds&amp;#10;globalClock = core.Clock()  # Assuming globalClock is defined at the experiment's start" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="# codeBlockFB Component - Each Frame&amp;#10;&amp;#10;# Calculate the time left for the countdown&amp;#10;time_elapsed = globalClock.getTime()&amp;#10;countdown_time = countdown_start - time_elapsed&amp;#10;&amp;#10;# Update the feedback message with the countdown time&amp;#10;feedbackMsg = f&quot;Go Trials - Accuracy: {avg_go_accuracy:.2%}, &quot;  # Converted to percentage&amp;#10;feedbackMsg += f&quot;Average Reaction Time: {avg_go_reaction_time:.3f} seconds\n&quot;&amp;#10;feedbackMsg += f&quot;Stop-Signal Trials - Accuracy: {avg_stop_accuracy:.2%}\n&quot;  # Converted to percentage&amp;#10;feedbackMsg += f&quot;Next block starts in: {int(countdown_time)} seconds&quot;&amp;#10;&amp;#10;# Update the display of the countdown timer&amp;#10;blockFeedbackText.setText(feedbackMsg)&amp;#10;&amp;#10;# End routine if countdown has finished&amp;#10;if countdown_time &lt;= 0:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codeBlockFB" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="blockFeedbackText" plugin="None">
+        <Param val="$fb_col" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val=".025" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="blockFeedbackText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$feedbackMsg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="countdown">
+      <RoutineSettingsComponent name="countdown" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="countdown" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_countdown" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_countdown" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$str(10-int(t))" valType="str" updates="set every frame" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="endTask">
+      <RoutineSettingsComponent name="endTask" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="endTask" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="textEnd" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textEnd" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Well done! You've finished this test. Thank you for participating in our study.&amp;#10;&amp;#10;Please press the &lt;SPACEBAR&gt; to end the experiment and inform a research team member." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_respEnd" plugin="None">
+        <Param val="'y','n','left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_respEnd" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <LoopInitiator loopType="TrialHandler" name="imgLoader">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'stim_file': 'Naturalistic_scenes/Ambiguous/1121.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/1122.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/1230.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/1333.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/1350.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/1616.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/1640.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/1675.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/1908.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/1935.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/1945.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/1947.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2002.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2018.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2019.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2020.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2025.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2026.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2032.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2034.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2036.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2038.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2102.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2191.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2215.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2280.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2305.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2308.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2381.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2385.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2390.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2396.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2411.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2440.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2445.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2480.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2495.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2499.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2516.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2518.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2521.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2570.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2575.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2579.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2580.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2593.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2595.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2597.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2600.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2606.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2616.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2620.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2635.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2702.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2745.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2840.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2850.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2870.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/2980.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/4613.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/4631.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/5040.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/5390.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/5395.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/5471.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/5520.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/5530.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/5731.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/5740.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/6900.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7000.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7001.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7002.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7003.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7004.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7006.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7009.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7010.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7012.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7014.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7016.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7017.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7018.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7019.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7021.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7026.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7033.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7053.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7057.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7058.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7062.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7077.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7081.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7100.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7242.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7248.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7249.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7365.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7493.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7500.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7505.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7506.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7512.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7550.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7564.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7632.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7820.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/7830.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/8060.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/8065.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/8241.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/8312.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/8325.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/8466.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/8475.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/9000.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/9145.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/9150.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/9210.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/9260.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/9401.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/9411.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/9468.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Ambiguous/9700.jpg', 'stim_type': 'ambiguous_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1019.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1022.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1026.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1030.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1033.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1040.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1050.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1051.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1052.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1070.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1080.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1090.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1101.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1110.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1111.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1113.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1114.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1120.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1200.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1201.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1202.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1205.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1220.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1240.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1270.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1271.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1274.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1275.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1280.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1300.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1301.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1302.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1303.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1304.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1310.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1313.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1321.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1525.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1617.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1930.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1931.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/1932.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/2039.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/2053.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/2095.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/2205.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/2276.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/2456.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/2770.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/2800.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/2810.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/2900.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3000.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3001.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3005.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3010.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3015.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3016.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3017.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3030.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3053.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3060.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3062.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3063.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3064.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3069.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3071.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3080.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3100.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3101.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3102.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3110.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3120.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3130.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3131.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3140.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3168.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3170.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3180.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3191.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3220.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3225.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3261.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3266.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3301.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3350.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/3530.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/5940.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/5961.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/5971.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/5972.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/5973.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6000.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6010.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6020.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6021.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6022.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6190.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6230.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6350.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6370.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6520.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6563.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6570.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/6821.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/8480.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9040.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9041.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9075.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9183.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9185.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9220.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9254.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9325.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9340.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9405.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9410.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9413.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9417.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9520.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9570.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9800.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9810.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Negative/9910.jpg', 'stim_type': 'negative_image'}, {'stim_file': 'Naturalistic_scenes/Positive/1340.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/1440.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/1441.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/1460.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/1610.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/1620.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/1710.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/1750.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/1811.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/1920.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2030.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2040.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2045.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2050.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2057.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2058.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2070.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2071.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2075.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2080.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2091.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2150.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2151.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2154.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2160.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2165.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2209.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2650.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2216.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2260.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2274.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2311.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2314.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2332.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2340.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2347.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2360.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2388.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2391.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2395.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2530.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2540.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2550.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/2660.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4006.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4007.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4090.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4100.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4150.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4180.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4310.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4311.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4320.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4505.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4597.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4614.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4622.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4623.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4624.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4625.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4626.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4628.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4640.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4641.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4643.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4645.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4650.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4651.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4652.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4653.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4656.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4658.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4659.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4660.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4664.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4666.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4668.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4670.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4672.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4676.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4677.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4680.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4681.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4683.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4687.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4689.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4690.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4693.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4694.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4695.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4697.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4698.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4700.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4800.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4810.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5000.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5001.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5010.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5020.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5030.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5199.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5200.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5201.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5202.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5210.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5470.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5600.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5760.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5811.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5825.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5829.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5830.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5831.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5833.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5910.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/5982.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/7330.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/7502.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8497.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8190.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8200.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8370.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8380.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8420.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8470.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8496.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8502.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4001.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4130.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4235.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/4240.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8503.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8510.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8531.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8540.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8600.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/8620.jpg', 'stim_type': 'positive_image'}, {'stim_file': 'Naturalistic_scenes/Positive/9156.jpg', 'stim_type': 'positive_image'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="image_stims.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="imgLoader" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="loadStims"/>
+    <LoopTerminator name="imgLoader"/>
+    <Routine name="shuffleStims"/>
+    <Routine name="prepTimings"/>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="pracBlock_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="pracBlock_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="prepPrac"/>
+    <LoopInitiator loopType="TrialHandler" name="pracTrials_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Ambiguous', 'go_nogo': 'go', 'stim_type': 'ambiguous_image', 'corr_resp1': 'a', 'corr_resp2': 'l'}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'go', 'stim_type': 'negative_image', 'corr_resp1': 'l', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'go', 'stim_type': 'positive_image', 'corr_resp1': 'a', 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'no_go', 'stim_type': 'negative_image', 'corr_resp1': None, 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'no_go', 'stim_type': 'negative_image', 'corr_resp1': None, 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'no_go', 'stim_type': 'negative_image', 'corr_resp1': None, 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'no_go', 'stim_type': 'negative_image', 'corr_resp1': None, 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'no_go', 'stim_type': 'negative_image', 'corr_resp1': None, 'corr_resp2': None}, {'trial_type': 'Negative', 'go_nogo': 'no_go', 'stim_type': 'negative_image', 'corr_resp1': None, 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'no_go', 'stim_type': 'positive_image', 'corr_resp1': None, 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'no_go', 'stim_type': 'positive_image', 'corr_resp1': None, 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'no_go', 'stim_type': 'positive_image', 'corr_resp1': None, 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'no_go', 'stim_type': 'positive_image', 'corr_resp1': None, 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'no_go', 'stim_type': 'positive_image', 'corr_resp1': None, 'corr_resp2': None}, {'trial_type': 'Positive', 'go_nogo': 'no_go', 'stim_type': 'positive_image', 'corr_resp1': None, 'corr_resp2': None}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="block_pracTrials.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="pracTrials_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="prepTrial"/>
+    <Routine name="jitteredISI"/>
+    <Routine name="preTrial"/>
+    <Routine name="iceTrial"/>
+    <Routine name="postTrial"/>
+    <LoopTerminator name="pracTrials_loop"/>
+    <Routine name="blockFeedback"/>
+    <LoopTerminator name="pracBlock_loop"/>
+    <Routine name="endTask"/>
+  </Flow>
+</PsychoPy2experiment>
